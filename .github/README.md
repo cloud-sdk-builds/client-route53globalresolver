@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-route53globalresolver`](https://www.npmjs.com/package/@aws-sdk/client-route53globalresolver/v/3.1121.0).
+[`@aws-sdk/client-route53globalresolver`](https://www.npmjs.com/package/@aws-sdk/client-route53globalresolver/v/3.1122.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-route53globalresolver - [https://cloud-sdk-builds.github.io/?sdk=client-route53globalresolver](https://cloud-sdk-builds.github.io/?sdk=client-route53globalresolver)
-- @aws-sdk/client-route53globalresolver v3.1121.0 - [https://cloud-sdk-builds.github.io/?sdk=client-route53globalresolver&version=3.1121.0](https://cloud-sdk-builds.github.io/?sdk=client-route53globalresolver&version=3.1121.0)
+- @aws-sdk/client-route53globalresolver v3.1122.0 - [https://cloud-sdk-builds.github.io/?sdk=client-route53globalresolver&version=3.1122.0](https://cloud-sdk-builds.github.io/?sdk=client-route53globalresolver&version=3.1122.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53globalresolver@3.1121.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53globalresolver@3.1122.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-5v+QowOz3MGRvo0C0jvf5Mb8Ww5o8dmUB8dRhrAPn+U4D6iQ0SGfpo8iN/awFeNz
+sha384-j0K+/ayBrQJczHo2czsclasDsMgrUHlk+9qR3pHrX/bTRfOb+X8zLwQ7M4v3b6dX
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-route53globalresolver": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53globalresolver@3.1121.0/index.min.mjs"
+            "@aws-sdk/client-route53globalresolver": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53globalresolver@3.1122.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53globalresolver@3.1121.0/index.min.mjs": "sha384-5v+QowOz3MGRvo0C0jvf5Mb8Ww5o8dmUB8dRhrAPn+U4D6iQ0SGfpo8iN/awFeNz"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53globalresolver@3.1122.0/index.min.mjs": "sha384-j0K+/ayBrQJczHo2czsclasDsMgrUHlk+9qR3pHrX/bTRfOb+X8zLwQ7M4v3b6dX"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-route53globalresolver": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53globalresolver@3.1121.0/index.min.mjs"
+                        "@aws-sdk/client-route53globalresolver": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53globalresolver@3.1122.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53globalresolver@3.1121.0/index.min.mjs": "sha384-5v+QowOz3MGRvo0C0jvf5Mb8Ww5o8dmUB8dRhrAPn+U4D6iQ0SGfpo8iN/awFeNz"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53globalresolver@3.1122.0/index.min.mjs": "sha384-j0K+/ayBrQJczHo2czsclasDsMgrUHlk+9qR3pHrX/bTRfOb+X8zLwQ7M4v3b6dX"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1121.0`)
+* Always pin to a specific version (`@3.1122.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-route53globalresolver/blob/refs/tags/3.1121.0/LICENSE
+https://github.com/cloud-sdk-builds/client-route53globalresolver/blob/refs/tags/3.1122.0/LICENSE
 ```
 
 ---
